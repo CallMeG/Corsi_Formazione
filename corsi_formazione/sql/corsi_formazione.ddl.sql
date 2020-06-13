@@ -38,7 +38,7 @@ CREATE TABLE Corso(
     Iscritti INT NOT NULL DEFAULT 0,
     Limite_Iscritti INT NOT NULL,
     PRIMARY KEY (ID_Corso),
-    FOREIGN KEY (ID_Sede) REFERENCES Sede(ID_Sede),
+    FOREIGN KEY (ID_Sede) REFERENCES Sede(ID_Sede), 
     CHECK (Data_Inizio < Data_Fine),
     CHECK (Limite_Iscritti > 0),
     CHECK (Iscritti >= 0 AND Iscritti <= Limite_Iscritti)
@@ -54,6 +54,8 @@ CREATE TABLE Partecipazioni_Corsi(
     FOREIGN KEY (ID_Dipendente) REFERENCES Dipendente(ID_Dipendente),
     FOREIGN KEY (ID_Corso) REFERENCES Corso(ID_Corso)
 );
+
+
 
 
 
