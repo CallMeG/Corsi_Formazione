@@ -22,7 +22,9 @@ INSERT INTO Corso (ID_Sede, Nome, Data_Inizio, Data_Fine,Limite_Iscritti) VALUES
 (2, 'Javascript', '2020-06-13', '2020-07-16', 30),
 (2, 'Microsoft Access', '2020-08-13', '2020-10-16', 40);
 
-INSERT INTO Partecipazioni_Corsi  /* Non inserire valori in questa table durante il popolamento del db,si tratta solo di un esempio*/
-VALUES (1, 1), (2, 2);
+/*INSERT INTO Partecipazioni_Corsi  
+VALUES (1, 1), (2, 2);*/
+
+
 
 
