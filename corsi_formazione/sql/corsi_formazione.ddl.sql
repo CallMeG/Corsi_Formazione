@@ -22,7 +22,7 @@ CREATE TABLE Dipendente(
     Data_Di_Nascita DATE NOT NULL,
     Telefono CHAR(10) NOT NULL UNIQUE,
     Email VARCHAR(30) NOT NULL UNIQUE,
-    Password VARCHAR(32) NOT NULL,
+    Password CHAR(32) NOT NULL,
     PRIMARY KEY (ID_Dipendente),
     FOREIGN KEY (ID_Sede) REFERENCES Sede(ID_Sede)
 );
