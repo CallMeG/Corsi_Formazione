@@ -24,7 +24,7 @@
     <section class="container-fluid">
         <section class="row justify-content-center">
             <section>
-                <form class="form-container" action="./auth.php" method="post">    <!-- Dopo aver cliccato su "Accedi" si richiama file per l'autenticazione  -->
+                <form class="form-container" action="./autenticazione.php" method="post">    <!-- Dopo aver cliccato su "Accedi" si richiama file per l'autenticazione  -->
                     <div class="form-group">
                         <h3 class="text-left" id="login"><i class="icon far fa-user mr-2"></i><b>Accesso</b></h3>
                         <label for="Email"><i class="icon fas fa-at mr-1"></i>Inserire e-mail</label>
